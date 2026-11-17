@@ -5,10 +5,12 @@ import { Menu } from './components/menu'
 function App() {
 
   return (
-    <div className={s.wrapHome}>
-      <Menu />
-    </div>
-
+    <>
+    <Menu />
+      <div className={s.wrapHome}>
+        
+      </div>
+    </>
   )
 }
 
